@@ -1,7 +1,9 @@
 package com.example.android.myaddressbook;
 
 import android.annotation.SuppressLint;
+import android.app.LoaderManager;
 import android.content.Context;
+import android.content.Loader;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -32,13 +34,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ContactsActivity extends AppCompatActivity implements TextWatcher {
+public class ContactsActivity extends AppCompatActivity implements TextWatcher,LoaderManager.LoaderCallbacks<String> {
 
     private static final String CONTACT_KEY = "contact_key";
     private static final String TAG = ContactsActivity.class.getSimpleName();
@@ -247,7 +247,8 @@ public class ContactsActivity extends AppCompatActivity implements TextWatcher {
                 clearContacts();
                 return true;
             case R.id.action_generate:
-                generateContacts();
+                LoaderManager loaderManager=getLoaderManager();
+                loaderManager.initLoader(0,null,this);
                 return true;
         }
 
@@ -269,8 +270,7 @@ public class ContactsActivity extends AppCompatActivity implements TextWatcher {
      * Generates mock contact data to populate the UI from a JSON file in the
      * assets directory, called from the options menu.
      */
-    private void generateContacts() {
-        String contactsString = readContactJsonFile();
+    private void generateContacts(String contactsString) {
         try {
             JSONArray contactsJson = new JSONArray(contactsString);
             for (int i = 0; i < contactsJson.length(); i++) {
@@ -290,27 +290,6 @@ public class ContactsActivity extends AppCompatActivity implements TextWatcher {
         }
     }
 
-    /**
-     * Reads a file from the assets directory and returns it as a string.
-     *
-     * @return The resulting string.
-     */
-    @SuppressWarnings("ResultOfMethodCallIgnored")
-    private String readContactJsonFile() {
-        String contactsString = null;
-        try {
-            InputStream inputStream = getAssets().open("mock_contacts.json");
-            int size = inputStream.available();
-            byte[] buffer = new byte[size];
-            inputStream.read(buffer);
-            inputStream.close();
-
-            contactsString = new String(buffer);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return contactsString;
-    }
 
     /**
      * Override methods for the TextWatcher interface, used to validate user
@@ -360,7 +339,21 @@ public class ContactsActivity extends AppCompatActivity implements TextWatcher {
     }
 
 
+    @Override
+    public Loader<String> onCreateLoader(int i, Bundle bundle) {
 
+        return new Coctact_Loader(this);
+    }
+
+    @Override
+    public void onLoadFinished(Loader<String> loader, String s) {
+        generateContacts(s);
+    }
+
+    @Override
+    public void onLoaderReset(Loader<String> loader) {
+        clearContacts();
+    }
 
 
     ////Innner Adapter class for ContactAdapter

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_list_item.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",

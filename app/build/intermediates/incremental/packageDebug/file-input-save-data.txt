@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Oct 07 23:18:41 PKT 2017
+#Sat Oct 07 23:33:41 PKT 2017
 210.set=ANDROID_RESOURCE
 282.file=E\:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_bottom.xml
 14.set=ANDROID_RESOURCE
