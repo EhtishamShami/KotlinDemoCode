@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:17:1-39:12
+	package
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:18:5-48
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:17:11-69
+	android:versionCode
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:20:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Shami\.android\build-cache\41be5365b91fe954d1ebc482a855472871e3a661\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.1] C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Shami\.android\build-cache\4912443225b10d2c822c71d509db09585ea6be12\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Shami\.android\build-cache\c62bf1c24bed606ac805efa444f5b63d74b02f8e\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Shami\.android\build-cache\d5afb0c7dd473b0a42bc73ab2476c81e84e056b7\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Shami\.android\build-cache\8688bdd70532d711a190efe67bf1c94bbeb677a1\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\Shami\.android\build-cache\fae2e33cd61c1bbdcce080c468127c9413961c13\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Shami\.android\build-cache\8b272e53748fddb1aeffefa9a5354525b3ff1f45\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Shami\.android\build-cache\f0bd53f2cf75eff2243f23fe7aec6653730501e7\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Shami\.android\build-cache\fa935e2ebf5e5fd678671a9a65ca2a60b4eeb463\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Shami\.android\build-cache\09ba7bc293abdf179990373d4ce0fb676d0cc9ad\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Shami\.android\build-cache\e1b688b10a5e5ce6735468a5c72bbf692b0c87e4\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Shami\.android\build-cache\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:23:9-41
+	android:supportsRtl
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:25:9-35
+	android:roundIcon
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:24:9-54
+	android:allowBackup
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:26:9-40
+activity#com.example.android.myaddressbook.ContactsActivity
+ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:29:13-45
+	android:theme
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:28:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Shami\.android\build-cache\41be5365b91fe954d1ebc482a855472871e3a661\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.1] C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Shami\.android\build-cache\4912443225b10d2c822c71d509db09585ea6be12\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Shami\.android\build-cache\c62bf1c24bed606ac805efa444f5b63d74b02f8e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Shami\.android\build-cache\d5afb0c7dd473b0a42bc73ab2476c81e84e056b7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Shami\.android\build-cache\8688bdd70532d711a190efe67bf1c94bbeb677a1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.1] C:\Users\Shami\.android\build-cache\fae2e33cd61c1bbdcce080c468127c9413961c13\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Shami\.android\build-cache\8b272e53748fddb1aeffefa9a5354525b3ff1f45\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Shami\.android\build-cache\f0bd53f2cf75eff2243f23fe7aec6653730501e7\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Shami\.android\build-cache\fa935e2ebf5e5fd678671a9a65ca2a60b4eeb463\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Shami\.android\build-cache\09ba7bc293abdf179990373d4ce0fb676d0cc9ad\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Shami\.android\build-cache\e1b688b10a5e5ce6735468a5c72bbf692b0c87e4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Shami\.android\build-cache\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.1] C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.1] C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Shami\.android\build-cache\4912443225b10d2c822c71d509db09585ea6be12\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Shami\.android\build-cache\c62bf1c24bed606ac805efa444f5b63d74b02f8e\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Shami\.android\build-cache\d5afb0c7dd473b0a42bc73ab2476c81e84e056b7\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Shami\.android\build-cache\8688bdd70532d711a190efe67bf1c94bbeb677a1\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\Shami\.android\build-cache\fae2e33cd61c1bbdcce080c468127c9413961c13\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Shami\.android\build-cache\8b272e53748fddb1aeffefa9a5354525b3ff1f45\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Shami\.android\build-cache\f0bd53f2cf75eff2243f23fe7aec6653730501e7\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Shami\.android\build-cache\fa935e2ebf5e5fd678671a9a65ca2a60b4eeb463\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Shami\.android\build-cache\09ba7bc293abdf179990373d4ce0fb676d0cc9ad\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Shami\.android\build-cache\e1b688b10a5e5ce6735468a5c72bbf692b0c87e4\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Shami\.android\build-cache\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.1] C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.1] C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\AndroidManifest.xml:27:13-51

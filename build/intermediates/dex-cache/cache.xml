@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\fa935e2ebf5e5fd678671a9a65ca2a60b4eeb463\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_558a6e6c6f917521b4b57fd783024825e23ee30a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.1\e1bb32b12b25e2f78e6786059ca7ea878f8345e0\support-annotations-26.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.1_d841424332068133a913b6a40d563931c805a25c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_3e1b7d9a36972cb779fdcd3c73be9ca11d926516\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\d5afb0c7dd473b0a42bc73ab2476c81e84e056b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b45e0237857c1e4c7e40ca17c0471f05d2935592\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\e1b688b10a5e5ce6735468a5c72bbf692b0c87e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8bc07193ca13710939bf2249271bdb31bc6e0cc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\8688bdd70532d711a190efe67bf1c94bbeb677a1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_302b8e7a36516a354caf3faaeb3c3c7591ea43a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\c62bf1c24bed606ac805efa444f5b63d74b02f8e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_39c69765f64db267401bb956ce692ae93c42435b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a76278e2b4debe17dee716cbb344ba21559a8fb">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_228a87d7d2a102b06289f7ffa513ddbb0304546a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\09ba7bc293abdf179990373d4ce0fb676d0cc9ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1194d4b1fe91d7dd16c911b3812437cf6f9c3722\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\f0bd53f2cf75eff2243f23fe7aec6653730501e7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_691b5bf134656a0b02fcb5bb0628a4d819ad8b58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\fae2e33cd61c1bbdcce080c468127c9413961c13\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="56e96fa067ba358a6c60184e40947810dcd78f30">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57595a4b6a8ef73f0b11cb02ef48bccc5799d799\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7a45293ed6dd305adc02db1f97190d0d8f898e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c390af22079a61fdc42712c19f15a700f1fc2cbf">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b588509c00c13818cd44972492e7a8e81fe5d88b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\8b272e53748fddb1aeffefa9a5354525b3ff1f45\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb8329bad39ad4b5c1901fc7f021b5b406784379\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_494d0a91438f448bee6bdfaf0bf639d2b82f8ed1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.android\build-cache\4912443225b10d2c822c71d509db09585ea6be12\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c03da6f8b0448f034b271f617389e322bade6ec4\classes.dex" />
+    </item>
+
+</items>

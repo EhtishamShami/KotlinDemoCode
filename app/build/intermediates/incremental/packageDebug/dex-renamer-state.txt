@@ -1,0 +1,7 @@
+#Sat Oct 07 23:18:41 PKT 2017
+base.0=E\:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_228a87d7d2a102b06289f7ffa513ddbb0304546a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_494d0a91438f448bee6bdfaf0bf639d2b82f8ed1\\classes.dex
+base.1=E\:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_494d0a91438f448bee6bdfaf0bf639d2b82f8ed1
+file.0=E\:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_228a87d7d2a102b06289f7ffa513ddbb0304546a\\classes.dex
