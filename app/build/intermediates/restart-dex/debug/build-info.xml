@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507403094079"
+    timestamp="1507492268308"
     token="-2086743205330207922"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="602" />
+        duration="20" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="125" />
+        duration="68" />
     <task
         name="verifier"
-        duration="24" />
+        duration="18" />
 
     <artifact
         location="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -32,7 +32,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1507402917285"
+        timestamp="1507490935635"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -73,7 +73,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507403094079"
+        timestamp="1507492132663"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507492268308"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

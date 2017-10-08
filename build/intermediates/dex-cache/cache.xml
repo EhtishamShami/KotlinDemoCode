@@ -30,6 +30,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Shami\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.51\8b5933578dc55f32cfc1a25f1db6371e4161fb8f\kotlin-stdlib-jre7-1.1.51.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8b5933578dc55f32cfc1a25f1db6371e4161fb8f">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-stdlib-jre7-1.1.51_53272b2bf81f6dc191fafe84bfe7cea0caa6b741\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shami\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.51\e34fe80c9714240525f665113dd3749415515655\kotlin-stdlib-1.1.51.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e34fe80c9714240525f665113dd3749415515655">
+        <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-stdlib-1.1.51_890467ec19b21b30598e5466c13d8f6b439154cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Shami\.android\build-cache\d5afb0c7dd473b0a42bc73ab2476c81e84e056b7\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -70,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="1a76278e2b4debe17dee716cbb344ba21559a8fb">
+        sha1="796aa3667f07434286004e5b30ecd71745b3e903">
         <dex dex="E:\Kotlin\android_using_kotlin\MyAddressBook-starter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_228a87d7d2a102b06289f7ffa513ddbb0304546a\classes.dex" />
     </item>
     <item
