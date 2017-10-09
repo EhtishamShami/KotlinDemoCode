@@ -806,6 +806,8 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d007f
 int id action_mode_bar_stub 0x7f0d007e
 int id action_mode_close_button 0x7f0d0062
+int id action_sort_first 0x7f0d00c0
+int id action_sort_last 0x7f0d00c1
 int id action_text 0x7f0d00aa
 int id actions 0x7f0d00b8
 int id activity_chooser_view_content 0x7f0d0063

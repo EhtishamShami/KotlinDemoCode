@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Oct 09 22:57:57 PKT 2017
+#Tue Oct 10 01:40:50 PKT 2017
 210.set=ANDROID_RESOURCE
 282.file=E\:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_spinner.xml
 14.set=ANDROID_RESOURCE

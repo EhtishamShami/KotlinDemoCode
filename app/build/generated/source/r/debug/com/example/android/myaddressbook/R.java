@@ -3420,6 +3420,8 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d007f;
         public static final int action_mode_bar_stub=0x7f0d007e;
         public static final int action_mode_close_button=0x7f0d0062;
+        public static final int action_sort_first=0x7f0d00c0;
+        public static final int action_sort_last=0x7f0d00c1;
         public static final int action_text=0x7f0d00aa;
         public static final int actions=0x7f0d00b8;
         public static final int activity_chooser_view_content=0x7f0d0063;

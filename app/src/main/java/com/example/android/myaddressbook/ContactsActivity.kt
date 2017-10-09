@@ -6,7 +6,6 @@ import android.content.Context
 import android.content.Loader
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DividerItemDecoration
@@ -61,12 +60,12 @@ class ContactsActivity : AppCompatActivity(), TextWatcher, LoaderManager.LoaderC
      * Loads the contacts from SharedPreferences, and deserializes them into
      * a Contact data type using Gson.
      */
+
+
+
     private fun loadContacts(): ArrayList<Contact> {
         val contactSet = mPrefs.getStringSet(CONTACT_KEY, HashSet())
-        val contacts = ArrayList<Contact>()
-        for (contactString in contactSet) {
-            contacts.add(Gson().fromJson(contactString, Contact::class.java))
-        }
+        val contacts = contactSet.mapTo(ArrayList<Contact>()) { Gson().fromJson(it, Contact::class.java) }
         return contacts
     }
 
@@ -76,10 +75,9 @@ class ContactsActivity : AppCompatActivity(), TextWatcher, LoaderManager.LoaderC
     private fun saveContacts() {
         val editor = mPrefs.edit()
         editor.clear()
-        val contactSet = HashSet<String>()
-        for (contact in mContacts) {
-            contactSet.add(Gson().toJson(contact))
-        }
+        val contactSet = mContacts
+                .map { Gson().toJson(it) }
+                .toSet()
         editor.putStringSet(CONTACT_KEY, contactSet)
         editor.apply()
     }
@@ -214,9 +212,19 @@ class ContactsActivity : AppCompatActivity(), TextWatcher, LoaderManager.LoaderC
                 return true
             }
             R.id.action_generate -> {
-               // val loaderManager = loaderManager
                 loaderManager.initLoader(0, null, this)
                 return true
+            }
+            R.id.action_sort_first -> {
+                mContacts.sortBy { it.firstName }
+                mAdapter.notifyDataSetChanged()
+                return true;
+            }
+            R.id.action_sort_last ->
+            {
+                mContacts.sortBy { it.lastName }
+                mAdapter.notifyDataSetChanged()
+                return true;
             }
         }
 
@@ -284,24 +292,33 @@ class ContactsActivity : AppCompatActivity(), TextWatcher, LoaderManager.LoaderC
      * text from member variables.
      */
     override fun afterTextChanged(editable: Editable) {
-        val firstNameValid = !mFirstNameEdit.text.toString().isEmpty()
-        val lastNameValid = !mLastNameEdit.text.toString().isEmpty()
-        val emailValid = Patterns.EMAIL_ADDRESS
-                .matcher(mEmailEdit.text).matches()
 
-        val failIcon = ContextCompat.getDrawable(this,
-                R.drawable.ic_fail)
-        val passIcon = ContextCompat.getDrawable(this,
-                R.drawable.ic_pass)
+        val notEmpty:(TextView)->Boolean={it.text.isNotEmpty()};
 
-        mFirstNameEdit.setCompoundDrawablesWithIntrinsicBounds(null, null,
-                if (firstNameValid) passIcon else failIcon, null)
-        mLastNameEdit.setCompoundDrawablesWithIntrinsicBounds(null, null,
-                if (lastNameValid) passIcon else failIcon, null)
-        mEmailEdit.setCompoundDrawablesWithIntrinsicBounds(null, null,
-                if (emailValid) passIcon else failIcon, null)
+        val isEmail:(TextView)->Boolean;
+        isEmail={Patterns.EMAIL_ADDRESS.matcher(it.text).matches()}
 
-        mEntryValid = firstNameValid and lastNameValid and emailValid
+//
+//        val firstNameValid = !mFirstNameEdit.text.toString().isEmpty()
+//        val lastNameValid = !mLastNameEdit.text.toString().isEmpty()
+//        val emailValid = Patterns.EMAIL_ADDRESS
+//                .matcher(mEmailEdit.text).matches()
+//
+//        val passIcon = ContextCompat.getDrawable(this,
+//                R.drawable.ic_pass)
+//
+//        mFirstNameEdit.setCompoundDrawablesWithIntrinsicBounds(null, null,
+//                if (nonEmpty(mFirstNameEdit)) passIcon else failIcon, null)
+//        mLastNameEdit.setCompoundDrawablesWithIntrinsicBounds(null, null,
+//                if (nonEmpty(mLastNameEdit)) passIcon else failIcon, null)
+//        mEmailEdit.setCompoundDrawablesWithIntrinsicBounds(null, null,
+//                if (isEmail(mEmailEdit)) passIcon else failIcon, null)
+
+        mEntryValid = mFirstNameEdit.validateWidth(validator = notEmpty) and mLastNameEdit.validateWidth(validator = notEmpty) and mEmailEdit.validateWidth(validator = isEmail)
+
+
+
+
     }
 
 
