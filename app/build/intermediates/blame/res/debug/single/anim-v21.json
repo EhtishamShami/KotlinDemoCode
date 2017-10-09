@@ -4,7 +4,15 @@
         "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\74857a407ac47d174736f2efcde169cc42d7047e\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\74857a407ac47d174736f2efcde169cc42d7047e\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

@@ -1,5 +1,13 @@
 [
     {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\def12c90c5ee7e0cb7529045cb4193ba3286d1ba\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\def12c90c5ee7e0cb7529045cb4193ba3286d1ba\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\\output\\res\\layout-v21\\notification_action.xml"
     },
@@ -12,7 +20,15 @@
         "source": "C:\\Users\\Shami\\.android\\build-cache\\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\def12c90c5ee7e0cb7529045cb4193ba3286d1ba\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\36a63fd70ec83a4f156b5d803eb7354b3ed3becb\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\def12c90c5ee7e0cb7529045cb4193ba3286d1ba\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]

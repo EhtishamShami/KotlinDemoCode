@@ -2,5 +2,9 @@
     {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contacts.xml",
         "source": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\src\\main\\res\\menu\\menu_contacts.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contacts.xml",
+        "source": "E:\\KotlinDemo\\KotlinDemo\\app\\src\\main\\res\\menu\\menu_contacts.xml"
     }
 ]

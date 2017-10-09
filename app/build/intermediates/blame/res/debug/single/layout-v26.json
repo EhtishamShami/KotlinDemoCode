@@ -2,5 +2,9 @@
     {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\layout-v26\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\layout-v26\\abc_screen_toolbar.xml"
     }
 ]

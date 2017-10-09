@@ -4,12 +4,48 @@
         "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\74857a407ac47d174736f2efcde169cc42d7047e\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\b62e5ca9eda74e9c3864f9137df62c503ad8f13b\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
@@ -38,5 +74,9 @@
     {
         "merged": "E:\\Kotlin\\android_using_kotlin\\MyAddressBook-starter\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
         "source": "C:\\Users\\Shami\\.android\\build-cache\\4912443225b10d2c822c71d509db09585ea6be12\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\KotlinDemo\\KotlinDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Ehitshamshami\\.android\\build-cache\\788c3fe3baab461730b19cf557b696ab9d8801a3\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     }
 ]
